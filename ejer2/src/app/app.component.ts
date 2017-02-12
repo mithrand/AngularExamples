@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
-  name="nobody";
-
-  setName(name:string){
-    this.name = name;
-  }
 }
